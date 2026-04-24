@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Угадай число</title>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Угадай число от 1 до 100!</h1>
+        <div class="input-group">
+            <input type="number" id="guessInput" min="1" max="100" placeholder="Ваше число">
+            <button onclick="checkGuess()">Проверить</button>
+        </div>
+        <div id="message"></div>
+    </div>
+
+    <script src="game1.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Камень, ножницы, бумага</title>
+    <link rel="stylesheet" href="style.css">   
+</head>
+<body>
+    <main class="game-stone">
+        <h1>Камень, ножницы, бумага</h1>
+    
+    <div class="choices">
+        <div class="choice" data-choice="камень">
+            <img src="https://emojicdn.elk.sh/🪨" alt="Камень">
+            <div>Камень</div>
+        </div>
+        <div class="choice" data-choice="ножницы">
+            <img src="https://emojicdn.elk.sh/✂️" alt="Ножницы">
+            <div>Ножницы</div>
+        </div>
+        <div class="choice" data-choice="бумага">
+            <img src="https://emojicdn.elk.sh/🧻" alt="Бумага">
+            <div>Бумага</div>
+        </div>
+    </div>
+    
+    <div class="computer-choice" id="computer-choice">
+        <div>?</div>
+    </div>
+    
+    <div class="results">
+        <div id="result-text">Сделайте свой выбор</div>
+        <div class="score">
+            <div>Вы: <span id="user-score">0</span></div>
+            <div>Компьютер: <span id="computer-score">0</span></div>
+        </div>
+    </div>
+    </main>
+    <script src="game5.js"></script>   
+</body>
+</html>
